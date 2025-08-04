@@ -1,7 +1,25 @@
+Day 1 Delivered (4-08-2025)
+
 1. Difference between Let , Const and Var in Javascript.
 2. Data Types in Javascript. Primitive and Non-Primitive. [7 primitives (String, Bool, number, Symbol, undefined, null, bigint)]
 3. Difference Between Null and Undefined ?
 4. What is De-Structuring in Js  ?
 5. Arrays in JS.
 6. Hoisting in Variables in JS. 
-7. 
+-----------------Advance JS----------------------
+7. What are HIgher Order Functions ?
+8. Name some Inbuilt Higher Order Function. [map,filter,reduce,forEach]
+9. Difference between Map and Filter.
+10. What are call-back functions ?
+11. DIfference Between Call back Function and Higher order Function in JS
+--------------V Advaced ------------------------
+
+12. WHat is Callback Hell ?
+13. What is SetTimeOUt ?
+
+HW => .reduce() method
+HW => setInterval();
+
+
+Day 2 Plan (5-08-2025)
+Next => Promises 

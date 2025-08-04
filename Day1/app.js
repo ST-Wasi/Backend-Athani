@@ -44,12 +44,58 @@
 
 // Function in JS
 
-function Sum(a, b) { // Normal FUnction
-  return a + b;
+// function Sum(a, b) { // Normal FUnction
+//   return a + b;
+// }
+
+// console.log(Sum(2, 5));
+
+// const Subtract = (a, b) => { //  Arrow Function
+//   return a - b;
+// };
+
+// function Sum(a, b) { // Normal FUnction
+//   return a + b;
+// }
+
+// function Add(Addition){
+//   return Addition(2,4)
+// }
+// Add(Sum)
+
+// let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+// // forEach
+// const newArray = arr.filter(function (index) {
+//   return index > 5;
+// });
+
+// console.log(newArray);
+function step1(callback) {
+    setTimeout(() => {
+        console.log("Step 1 completed");
+        callback();
+    }, 1000);
 }
 
-console.log(Sum(2, 5));
+function step2(callback) {
+    setTimeout(() => {
+        console.log("Step 2 completed");
+        callback();
+    }, 1000);
+}
 
-const Subtract = (a, b) => { //  Arrow Function
-  return a - b;
-};
+function step3(callback) {
+    setTimeout(() => {
+        console.log("Step 3 completed");
+        callback();
+    }, 1000);
+}
+
+step1(() => {
+    step2(() => {
+        step3(() => {
+            console.log("All steps completed");
+        });
+    });
+});
