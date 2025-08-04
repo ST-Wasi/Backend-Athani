@@ -1,0 +1,7 @@
+1. Difference between Let , Const and Var in Javascript.
+2. Data Types in Javascript. Primitive and Non-Primitive. [7 primitives (String, Bool, number, Symbol, undefined, null, bigint)]
+3. Difference Between Null and Undefined ?
+4. What is De-Structuring in Js  ?
+5. Arrays in JS.
+6. Hoisting in Variables in JS. 
+7. 
